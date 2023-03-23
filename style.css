@@ -1,0 +1,186 @@
+/*cabeçalho*/
+
+body{
+    font-family: 'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background: rgb(000, 000, 000, 0.06);
+}
+
+.img-fundo{
+    background-image: url("https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_large_assets/507de6a720e4/assets/img/home/hero_photos/pkwm_5P7XMoIXHOzQR0Y7A.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+    width: 100%;
+}
+
+.logo{
+    height: 2vw;
+    width: 9vh;
+    padding-left: 30px;
+}
+
+.input-pesquisa{
+    height: 5.5vh;
+    width: 60vh;
+    border-radius: 5px;
+    border: solid 0.1px;
+    outline: none;
+}
+
+.set{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.clicaveis{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.clicaveis > p{
+    background: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: open sans;
+    font-size: 1.2rem;
+}
+
+.acessar{
+    border: solid 1px;
+    background: none;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.cadastro{
+    border: solid 1px;
+    background: white;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 20px;
+    background: red;
+    color: white;
+    font-size: 18px;
+}
+
+.frase-central{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    margin: 10%;
+}
+
+/*conteudo*/
+
+.atividade{
+    margin-top: 2vh;
+    padding-top: 4vh;
+    text-align: center;
+}
+
+.atividade > h1{
+    padding: 10px 0 50px;
+    font-size: 2em;
+    font-family: inherit;
+    font-weight: 700;
+}
+   
+/*card*/
+
+.container-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    display: block;
+    padding-top: 1.5em;
+    border: solid 0.5px rgba(211,211,211,0.5);
+}
+
+.imagem-central{
+    height: 200px;
+    width: 300px;
+    background-image: url("imagem-coroa2.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.header > img{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.header{
+    display: flex;
+    padding-left: 1rem;
+}
+
+.like{
+    display: flex;
+    justify-content: left;
+    padding-top: 1em;
+    align-items: baseline;
+    padding: 10px 10px;
+}
+
+
+.nome-usuario > a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.ad{
+    font-family: 'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: silver;
+}
+
+.localizacao > a{
+    text-decoration: none;
+    padding: 25px;
+    font-family: 'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+/*hover*/
+
+.acessar:hover{
+    background: rgba(211,211,211,0.5);
+    transition: 1s;
+}
+
+.clicaveis:hover > p:hover{
+    background: rgba(211,211,211,0.5);
+}
+
+.nome-usuario:hover > a:hover{
+    text-decoration: underline;
+}
+
+.localizacao > a:hover{
+    text-decoration: underline;
+}
+
+.set:hover{
+    background: rgba(211,211,211,0.5);
+}
